@@ -50,7 +50,7 @@ void Average(int[,] array)
 
         avg = summaryElementCol / array.GetLength(1);
         
-        Console.WriteLine($"Среднее арифметиского столбцов: {avg}");
+        Console.WriteLine($"Среднее арифметическое столбца {j}: {avg}");
     }
 }
 
