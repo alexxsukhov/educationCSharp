@@ -4,15 +4,18 @@
 // 8 -> 2, 4, 6, 8
 
 Console.Write("Введите число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+var a = Convert.ToInt32(Console.ReadLine());
 
-int number = 1;
+var number = 1;
 
-while(number <= a) {
-    if((number % 2) == 0){
-        if(number == a || number == a - 1) Console.Write($"{number}");
+while (number <= a)
+{
+    if (number % 2 == 0)
+    {
+        if (number == a || number == a - 1) Console.Write($"{number}");
         else Console.Write($"{number}, ");
     }
+
     number++;
 }
 

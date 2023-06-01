@@ -4,15 +4,17 @@
 82 -> 10
 9012 -> 12
 */
+
 int MathSumNumerics(int number)
 {
-    int summary = 0;
+    var summary = 0;
     while (number > 0)
     {
-        int numeric = number % 10;
+        var numeric = number % 10;
         number = number / 10;
         summary = summary + numeric;
     }
+
     return summary;
 }
 

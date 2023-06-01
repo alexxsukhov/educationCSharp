@@ -6,7 +6,7 @@
 
 //генерация массива
 
-int[,] GenerateMatrix(int rows = 4, int cols = 4, int start = 5, int end = 10)
+int[,] GenerateMatrix(int rows = 4, int cols = 4, int start = 0, int end = 10)
 {
     int[,] array = new int[rows, cols];
     Random random = new Random();

@@ -5,23 +5,16 @@
 // 22 3 9 -> 22
 
 Console.Write("Введите первое число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+var a = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число: ");
-int b = Convert.ToInt32(Console.ReadLine());
+var b = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите третье число: ");
-int c = Convert.ToInt32(Console.ReadLine());
+var c = Convert.ToInt32(Console.ReadLine());
 
-int max = a;
+var max = a;
 
-if(max < b)
-{
-    max = b;
-}
-if(max < c)
-{
-    max = c;
-}
+if (max < b) max = b;
+if (max < c) max = c;
 Console.WriteLine($"Максимальное число из заданных {max}");
-

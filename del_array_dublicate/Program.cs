@@ -43,7 +43,7 @@ int end = Convert.ToInt32(Console.ReadLine());
 //Инициализация массива
 int[] userArray = GenerateArray(usrCount, start, end);
 
-
+//Array.Sort(userArray);
 
 
 int[] DelDublicateArray(int[] array)
@@ -57,7 +57,9 @@ int[] DelDublicateArray(int[] array)
             arrayTemp.Add(t);
         }
     }
+
     int[] arrayNew = arrayTemp.ToArray();
+    //Array.Sort(arrayNew);
     return arrayNew;
 }
 
