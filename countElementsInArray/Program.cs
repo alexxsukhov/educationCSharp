@@ -55,7 +55,7 @@ int[] ChangeArrayToOneRow(int[,] array)
         }
     }
 
-    return arrayI.ToArray();
+    return arrayOneRow.ToArray();
 }
 
 int[] DelDublicateElementsArray(int[] array)
