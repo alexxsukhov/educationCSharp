@@ -46,12 +46,12 @@ void PrintArray(int[] array)
 
 int[] ChangeArrayToOneRow(int[,] array)
 {
-    List<int> arrayI = new List<int>();
+    List<int> arrayOneRow = new List<int>();
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            arrayI.Add(array[i, j]);
+            arrayOneRow.Add(array[i, j]);
         }
     }
 
